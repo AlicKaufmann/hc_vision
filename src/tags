@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+arucoSquareDimension	logitech.cpp	/^const float arucoSquareDimension = 0.03525f; \/\/to be changed$/;"	v
+arucoSquareDimension	main.cpp	/^const float arucoSquareDimension = 0.03525f; \/\/to be changed$/;"	v
+arucoSquareDimension	ximea.cpp	/^const float arucoSquareDimension = 0.03525f; \/\/to be changed$/;"	v
+calibrationSquareDimension	logitech.cpp	/^const float calibrationSquareDimension = 0.0239f; \/\/meters$/;"	v
+calibrationSquareDimension	main.cpp	/^const float calibrationSquareDimension = 0.0239f; \/\/meters$/;"	v
+calibrationSquareDimension	ximea.cpp	/^const float calibrationSquareDimension = 0.0239f; \/\/meters$/;"	v
+cameraCalibration	logitech.cpp	/^void cameraCalibration(vector<Mat> calibrationImages, Size boardSize, float squareEdgeLength, Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+cameraCalibration	main.cpp	/^void cameraCalibration(vector<Mat> calibrationImages, Size boardSize, float squareEdgeLength, Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+cameraCalibration	ximea.cpp	/^void cameraCalibration(vector<Mat> calibrationImages, Size boardSize, float squareEdgeLength, Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+cameraCalibrationProcess	logitech.cpp	/^void cameraCalibrationProcess(Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+cameraCalibrationProcess	main.cpp	/^void cameraCalibrationProcess(Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+cameraCalibrationProcess	ximea.cpp	/^void cameraCalibrationProcess(Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+chessboardDimensions	logitech.cpp	/^const Size chessboardDimensions = Size(6,9);$/;"	v
+chessboardDimensions	main.cpp	/^const Size chessboardDimensions = Size(6,9);$/;"	v
+chessboardDimensions	ximea.cpp	/^const Size chessboardDimensions = Size(6,9);$/;"	v
+createArucoMarkers	logitech.cpp	/^void createArucoMarkers()$/;"	f
+createArucoMarkers	main.cpp	/^void createArucoMarkers()$/;"	f
+createArucoMarkers	ximea.cpp	/^void createArucoMarkers()$/;"	f
+createKnownBoardPosition	logitech.cpp	/^void createKnownBoardPosition(Size boardSize, float squareEdgeLength, vector<Point3f>& corners)$/;"	f
+createKnownBoardPosition	main.cpp	/^void createKnownBoardPosition(Size boardSize, float squareEdgeLength, vector<Point3f>& corners)$/;"	f
+createKnownBoardPosition	ximea.cpp	/^void createKnownBoardPosition(Size boardSize, float squareEdgeLength, vector<Point3f>& corners)$/;"	f
+getChessboardCorners	logitech.cpp	/^void getChessboardCorners(vector<Mat> images, vector<vector<Point2f>>& allFoundCorners, bool showResults = false)$/;"	f
+getChessboardCorners	main.cpp	/^void getChessboardCorners(vector<Mat> images, vector<vector<Point2f>>& allFoundCorners, bool showResults = false)$/;"	f
+getChessboardCorners	ximea.cpp	/^void getChessboardCorners(vector<Mat> images, vector<vector<Point2f>>& allFoundCorners, bool showResults = false)$/;"	f
+loadCameraCalibration	logitech.cpp	/^bool loadCameraCalibration(string name, Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+loadCameraCalibration	main.cpp	/^bool loadCameraCalibration(string name, Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+loadCameraCalibration	ximea.cpp	/^bool loadCameraCalibration(string name, Mat& cameraMatrix, Mat& distanceCoefficients)$/;"	f
+main	logitech.cpp	/^int main(int argc, char** argv)$/;"	f
+main	main.cpp	/^int main(int argc, char** argv)$/;"	f
+main	ximea.cpp	/^int main(int argc, char** argv)$/;"	f
+saveCameraCalibration	logitech.cpp	/^bool saveCameraCalibration(string name, Mat cameraMatrix, Mat distanceCoefficients)$/;"	f
+saveCameraCalibration	main.cpp	/^bool saveCameraCalibration(string name, Mat cameraMatrix, Mat distanceCoefficients)$/;"	f
+saveCameraCalibration	ximea.cpp	/^bool saveCameraCalibration(string name, Mat cameraMatrix, Mat distanceCoefficients)$/;"	f
+startWebcamMonitoring	logitech.cpp	/^int startWebcamMonitoring(const Mat& cameraMatrix, const Mat& distanceCoefficients, float arucoSquareDimension, ros::Publisher* myPub)$/;"	f
+startWebcamMonitoring	main.cpp	/^int startWebcamMonitoring(const Mat& cameraMatrix, const Mat& distanceCoefficients, float arucoSquareDimension, ros::Publisher* myPub)$/;"	f
+startWebcamMonitoring	ximea.cpp	/^int startWebcamMonitoring(const Mat& cameraMatrix, const Mat& distanceCoefficients, float arucoSquareDimension, ros::Publisher* myPub)$/;"	f

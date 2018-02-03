@@ -1,0 +1,8 @@
+prefix=/home/alic/catkin_ws/src/vision/devel
+
+Name: vision
+Description: Description of vision
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/alic/catkin_ws/src/vision/devel/lib 
+Requires: 

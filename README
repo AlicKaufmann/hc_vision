@@ -1,0 +1,27 @@
+------------------------------------------------------
+This is the computer vision for the mini hovercraft
+------------------------------------------------------
+
+--------- Installation------------------
+1. Install OpenCV with the ArUco module, see https://github.com/opencv/opencv_contrib/tree/master/modules
+
+2. Download the ximea API package for Linux, see https://www.ximea.com/support/wiki/apis/XIMEA_Linux_Software_Package
+
+3. In a command terminal, do "cd ~/package", then "./install -cam_usb30" to install the ximea API with
+usb superspeed support available.
+4. Each time you boot your computer you should also enter "echo 0|sudo tee /sys/module/usbcore/parameters/usbfs_memory_mb"
+
+or you can just add the line "echo 0 > /sys/module/usbcore/parameters/usbfs_memory_mb" to your "/etc/rc.local" file.
+5. Create a ~/catkin_ws directory by following the instructions of the ROS wiki : http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+
+6. Put the vision package in ~/catkin_ws/src/ folder.
+
+7. do "cd ~/catkin_ws" and "catkin_make".
+
+8. Source the new package by doing "cd catkin_ws" and then "source devel/setup.bash".
+
+9. Plug the logitech or the ximea usb cavble into your computer. If you use the ximea, you should be sure to plug it in a superspeed (usb 3.0) plug.
+
+10. Run the logitech or the ximea node of the vision package by typing (from within catkin_ws) "rosrun vision logitech" or "rosrun vision ximea" respectively.
+
+

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alic/catkin_ws/src/vision/devel/setup.sh
